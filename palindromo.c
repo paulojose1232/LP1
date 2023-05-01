@@ -27,7 +27,7 @@ int main(void)
 
 	printf("A string normal é: %s.\n", str1);
 	printf("A string invertida é: %s.\n", str2);
-    printf("A string é um palíndromo? ");
+    	printf("A string é um palíndromo? ");
     
 	igual = strcmp(str2, str1); // Não precisaria usar uma variável, poderia fazer a comparação direto.
 	if (igual == 0)
