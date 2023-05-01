@@ -17,7 +17,7 @@ int main(void)
 	
 	printf("O tamanho da string é de %ld elementos.\n", strlen(str1));
 	
-    n = strlen(str1); // Coloco o tamanho da string em uma variável.
+        n = strlen(str1); // Coloco o tamanho da string em uma variável.
 	
 	for (i=0; i<strlen(str1); i++)
 	{
