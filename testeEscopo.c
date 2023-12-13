@@ -7,6 +7,8 @@
 // x passa a valer 10, então o valor de 5 que está na pilha será substituido pelo 10. Agora, rodando a função run()
 // x passa a valer 20, e então finalmente imprimimos x, e então o valor impresso por x será 20 pois 20 foi o último
 // valor de x a ser passado pela pilha.
+// Deve-se prestar atenção que o valor que é passado na pilha só vale durante a execução da função, caso a função
+// seja finalizada este valor é removido da pilha.
 
 #include <stdio.h>
 
